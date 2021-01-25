@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+<main class="login_signup">
+    <div class="login">
+        <h1 class="text-center">Mascara</h1>
+        <div class="page-content">
+            <div class="navigation">
+                <ul class="nav nav-pills mb-3" id="pills-tab" style="background: none;" role="tablist">
+                <li class="nav-item">
+                        <a class="nav-link active" id="rc pills-current-tab" data-toggle="pill" href="#pills-current"
+                            role="tab" aria-controls="pills-current" aria-selected="false">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="ac pills-previous-tab" data-toggle="pill" href="#pills-previous" role="tab"
+                            aria-controls="pills-previous" aria-selected="false">Sign In</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-current" role="tabpanel"
+                            aria-labelledby="pills-current-tab">
+                            <div class="container">
+                                <div class="text-center">
+                            
+                                        <form action="" class="form-control login-form">
+                                            <div class="text-center">
+                                                <input type="text" placeholder="user Name" class="form-control" id="validationDefault01 user"
+                                                    value="" required>  
+                                                <input type="email" placeholder="Email" class="form-control"id="validationDefault01 user"
+                                                value="" required >
+                                                    <input type="password" placeholder="Password" class="txt form-control d-inline" value=""
+                                                    id="validationDefault01 pass" required>
+                                                <div class="log">
+                                                    <a href="main.html" class="up">Sign Up</a>
+                                                    <a id="arc" class="nav-link up up2" id="pills-previous-tab" data-toggle="pill" href="#pills-previous" role="tab"
+                                                    aria-controls="pills-previous"  onclick="addRemoveClass()" aria-selected="false">I already have account</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="pills-previous" role="tabpanel"
+                            aria-labelledby="pills-previous-tab">
+                            <div class="container"> 
+                                <div class="text-center">
+                                        <form action="" class="form-control login-form">
+                                            <div class="text-center">
+                                                <input type="email" placeholder="Email" class="form-control" id="validationDefault01 user"
+                                                    value="" required>
+                                                <input type="password" placeholder="password" class="txt form-control d-inline" value=""
+                                                    id="validationDefault01 pass" required>
+                                                <div class="log mt-9">
+                                                    <a href="main.html" class="up">Sign IN</a>
+                                                    <a href="#" class="d-block up up2">Forget My password</a>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </main>
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
