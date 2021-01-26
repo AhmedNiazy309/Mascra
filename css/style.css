@@ -237,7 +237,10 @@ padding-left: 5%;
     justify-content: center;
 }
 
-
+.nav-search .search-field{
+    display: flex;
+    justify-content: center;
+}
 .nav-search .navbar .right-part .search-field form{
     display: flex;
     align-items: center;
@@ -524,4 +527,9 @@ a:hover{
 }
 .footer .phone{
     margin-bottom: 5%;
+}
+input:active{
+    border: none;
+}input:focus{
+    border: none;
 }
