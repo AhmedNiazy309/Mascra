@@ -10,11 +10,13 @@ img {
 .h-5 {
     height: 5rem;
 }
-main {
+.loginpage{
     background-image: url(../img/bg.jpg);
+    background-size: cover;
+}
+main {
     padding: 5% 0;
    height: 100vh;
-   background-size: cover;
     font-family: 'Titillium Web', sans-serif;
 }
 .form {

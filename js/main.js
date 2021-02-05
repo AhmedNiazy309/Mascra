@@ -19,8 +19,7 @@ $('.form').find('input, textarea').on('keyup blur focus', function (e) {
 
     if ($this.val() === '') {
       label.removeClass('highlight');
-    }
-    else if ($this.val() !== '') {
+    } else if ($this.val() !== '') {
       label.addClass('highlight');
     }
   }
@@ -45,17 +44,15 @@ var addclass = document.getElementById("ac");
 var removeclass = document.getElementById("rc");
 var addclass2 = document.getElementById("pills-current");
 var removeclass2 = document.getElementById("pills-previous");
+
 function addRemoveClass() {
   "use strict"
-  // active show
   addclass.classList.add("active");
   removeclass.classList.remove("active");
-  //   addclass2.classList.add("active show");
-  // removeclass2.classList.remove("active show");
 }
 
 
-    // active show
+// active show
 //   addclass2.classList.add("active show");
 // removeclass2.classList.remove("active show");
 // var addRemoveClass = document.getElementById("addRemoveClass");
@@ -71,4 +68,3 @@ function addRemoveClass() {
 //     $("#ac").addClass("active");
 //     $("#rc").removeClass("active");
 //   });
-  
